@@ -1,0 +1,31 @@
+<view class="top-box">
+    <comment comments="{{[comment]}}" bindmyevent="onTopLike"></comment>
+</view>
+
+
+<view class="comment-sub-wrapper">
+
+    <block wx:for="{{response}}" wx:for-item="responseItem" wx:key="index">
+        <view class="comment-sub">
+        <view class="comment-sub-info">
+            <image class="comment-sub-info-avatar" src="{{responseItem.fromMan.avatar}}" mode="aspectFill"></image>
+            <view class="comment-sub-info-center">
+                <text class="comment-sub-info-username">{{responseItem.fromMan.nickname}}</text>
+                <text class="comment-sub-info-time">{{responseItem.time}}</text>
+            </view>
+            <view class="comment-sub-info-right">
+                <text class="dianzanNum-sub">{{responseItem.likeNum}}</text>
+                <icon type="dianzan" size="26" color="#cdcccc"></icon>
+            </view>
+        </view>
+        <view class="comment-sub-content">
+            <block wx:if="index==1">
+                <text decode="{{true}}">回复@{{comment.fromMan.nickname}}:&ensp;</text>
+            </block>
+            
+            <text >{{responseItem.content}}</text>
+        </view>
+    </view>
+    </block>
+    
+</view>
