@@ -5,7 +5,7 @@
         <text class="focusNum">{{mainFocus}}人关注</text>
         <image class="miniAppImg" src="../../images/HappyBirdwe.jpg"></image>
             <text class="share-content-handle">长按二维码查看这只绿鸟</text>
-            <text class="share-content-intro">神奇的绿鸟,专吃BUG~~</text>
+            <text class="share-content-intro">some color see see~~</text>
     </view>
     <view class="share-bottom">
         <view class="shareText">

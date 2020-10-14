@@ -32,11 +32,11 @@ App({
           })
         }
         else {
-          wx.showToast({
-            title: "sorry, you don't auth",
-            icon: 'none',
-            duration: 1000
-          })
+          // wx.showToast({
+          //   title: "sorry, you don't auth",
+          //   icon: 'none',
+          //   duration: 1000
+          // })
           return null;
         }
       }

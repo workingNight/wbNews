@@ -3,5 +3,5 @@
     <button class="exit" bindtap="exit">退出登入</button>
 </view>
 <view class="key-bottom">
-    <text decode="{{true}}">Thanks for the author of weibo\nThis item is contributined by HappyBirdwe</text>
+    <text decode="{{true}}">Thanks for the author of weibo\nThis item is contributined by Wenwen</text>
 </view>
